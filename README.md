@@ -28,14 +28,27 @@ OpenTelemetry协议是现在业界使用的主流服务遥测协议，规范了�
 
 
 
-### 代码实例
+### 代码示例
 
 所有基础引导可以在源码和配置中找到，没有多余的文件，所有内容都是必须的。如果有其他问题请参考上文中指出的文档。
 
+Python版本用例基于Python 3.8.20编写，Java版本基于GraalVM Jdk 21.0.6编写。
+
 + Python用例  [zorathos-otel-export-example/zorathos-log-python-example at main · zorathos/zorathos-otel-export-example](https://github.com/zorathos/zorathos-otel-export-example/tree/main/zorathos-log-python-example)
+
 + Java用例
+
+  在引入合适依赖的前提下，Java场景支持Graal Native Image编译
+
   + SpringBoot [zorathos-otel-export-example/zorathos-log-springboot-example at main · zorathos/zorathos-otel-export-example](https://github.com/zorathos/zorathos-otel-export-example/tree/main/zorathos-log-springboot-example)
-  + Java Agent 
+
+    使用SpringBoot标准支持的Logback框架编写
+
+  + Java Agent [zorathos-otel-export-example/zorathos-log-java-agent-example at main · zorathos/zorathos-otel-export-example](https://github.com/zorathos/zorathos-otel-export-example/tree/main/zorathos-log-java-agent-example)
+
+    使用Log4j2框架编写并支持迁移到Logback
+
+所有示例将被Mirror到实验室服务器Gitee，您也可以在 [zorathos / zorathos-otel-export-example · GitLab](http://10.68.115.112:8929/zorathos/zorathos-otel-export-example) 上浏览本项目
 
 实际效果
 
