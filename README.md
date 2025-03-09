@@ -30,6 +30,8 @@ OpenTelemetry协议是现在业界使用的主流服务遥测协议，规范了�
 
 ### 代码实例
 
+所有基础引导可以在源码和配置中找到，没有多余的文件，所有内容都是必须的。如果有其他问题请参考上文中指出的文档。
+
 + Python用例  [zorathos-otel-export-example/zorathos-log-python-example at main · zorathos/zorathos-otel-export-example](https://github.com/zorathos/zorathos-otel-export-example/tree/main/zorathos-log-python-example)
 + Java用例
-  + SpringBoot 
+  + SpringBoot [zorathos-otel-export-example/zorathos-log-springboot-example at main · zorathos/zorathos-otel-export-example](https://github.com/zorathos/zorathos-otel-export-example/tree/main/zorathos-log-springboot-example)
