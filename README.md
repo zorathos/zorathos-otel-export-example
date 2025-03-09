@@ -48,7 +48,7 @@ Python版本用例基于Python 3.8.20编写，Java版本基于GraalVM Jdk 21.0.6
 
     使用Log4j2框架编写并支持迁移到Logback
 
-所有示例将被Mirror到实验室服务器Gitee，您也可以在 [zorathos / zorathos-otel-export-example · GitLab](http://10.68.115.112:8929/zorathos/zorathos-otel-export-example) 上浏览本项目
+所有示例将被Mirror到实验室服务器GitLab，您也可以在 [zorathos / zorathos-otel-export-example · GitLab](http://10.68.115.112:8929/zorathos/zorathos-otel-export-example) 上浏览本项目
 
 实际效果
 
