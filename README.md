@@ -8,7 +8,7 @@ MAPS项目日志管理使用arktouros项目基底进行。arktouros项目是实�
 
 arktouros项目的代码托管在 https://github.com/wangminan/arktouros 上，在本地服务器GitLab上有镜像仓库。
 
-arktouros的本地实例运行在服务器上，接收器配置使用otelGrpc，grpc接收器端口为50051，因此您可以在上报时使用**10.68.115.112:50051**作为上报host。arktouros的用户界面端口为50052，您可以访问 http://10.68.115.112:50052 来查看arktouros的看板。
+arktouros的本地实例运行在服务器上，接收器配置使用otelGrpc，grpc接收器端口为50051，因此您可以在上报时使用**10.68.20.38:50051**作为上报host。arktouros的用户界面端口为50052，您可以访问 http://10.68.20.38:50052 来查看arktouros的看板。
 
 #### OpenTelemetry协议
 
